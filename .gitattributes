@@ -1,3 +1,4 @@
 *.js text=auto
+*.json text=auto
 *.txt text=auto
 *.html text=auto

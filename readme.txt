@@ -129,6 +129,7 @@
   I made euh.js as an exercise and as an experiment. You’re free to use it
   in your own exercises, experiments or projects, whether they’re “closed”
   or “open”, commercial or non-commercial, “good” or “evil”, subject to
+<<<<<<< HEAD
   the terms of the MIT License[6], shown below:
 
   Copyright © 2012 Cristian Tincu
@@ -150,6 +151,9 @@
   OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
   OTHER DEALINGS IN THE SOFTWARE.
+=======
+  the terms of the MIT License[6].
+>>>>>>> Added package.json and license.txt. Updated readme.txt and .gitattributes.
 
                ···············•     ***     •···············               
 
@@ -190,4 +194,4 @@
 [6]
 
   See:
-  • http://opensource.org/licenses/mit-license.php
+  • https://raw.github.com/CristianTincu/euh.js/master/license.txt
