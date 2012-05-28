@@ -1,0 +1,29 @@
+{
+  "name": "euh.js"
+, "version": "0.1.1"
+, "description": "A JavaScript console wrapper."
+, "keywords": [
+    "console"
+  , "debug"
+  , "debugger"
+  , "debugging"
+  , "log"
+  , "logger"
+  , "logging"
+  , "logs"
+  ]
+, "homepage": "https://github.com/CristianTincu/euh.js"
+, "author": {
+    "name": "Cristian Tincu"
+  , "email": "cristian@rupe.re"
+  }
+, "main": "./euh.js"
+, "repository": {
+    "type": "git"
+  , "url": "git@github.com:CristianTincu/euh.js.git"
+  }
+, "licenses": [{
+    "type": "MIT"
+  , "url": "https://raw.github.com/CristianTincu/euh.js/master/license.txt"
+  }]
+}
