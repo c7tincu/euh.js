@@ -126,10 +126,10 @@
 
 §7. License
 
-  I made euh.js an exercise and as an experiment. You’re free to use it in
-  your own exercises, experiments or projects, whether they’re “closed” or
-  “open”, commercial or non-commercial, “good” or “evil”, subject to the
-  terms of the MIT License[6], shown below:
+  I made euh.js as an exercise and as an experiment. You’re free to use it
+  in your own exercises, experiments or projects, whether they’re “closed”
+  or “open”, commercial or non-commercial, “good” or “evil”, subject to
+  the terms of the MIT License[6], shown below:
 
   Copyright © 2012 Cristian Tincu
 
