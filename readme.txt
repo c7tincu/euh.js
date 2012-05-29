@@ -105,6 +105,8 @@
 
 §5. Future Plans[5]
 
+• Make euh.js Ender-compatible.
+
 • Provide timestamps to log messages.
 
 • Comment out the code.
