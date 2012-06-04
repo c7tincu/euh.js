@@ -72,19 +72,29 @@
 
 • Chrome “latest” (19)
 
+• Chrome 4
+
 • Firefox “latest” (12) 
   • w/ the native console
   • w/ Firebug “latest” (1.9.2)
 
+• Firefox 3.6
+  • w/o console (default)
+  • w/ Firebug 1.7.3
+
 • IE 9
-  • w/o F12
+  • w/o F12 (default)
   • w/ F12, in all modes: IE 9, IE 9 Compat View, IE 8, IE 7
 
 • IE 8
-  • w/o F12
+  • w/o F12 (default)
   • w/ F12, in all modes: IE 8, IE 8 Compat View, IE 7
 
 • Safari “latest” (5.1.7)
+
+• Safari on iOS “latest” (5.1.1)
+
+• Opera “latest” (11.64)
 
 • Node.js “latest” (0.6.18)
 
@@ -92,10 +102,14 @@
 
 §4. Change Log
 
+• 0.1.2 (2012-06-04)
+
+  Updated the Node.js module exports/require sections.
+
 • 0.1.1 (2012-05-28)
 
-  Changed the output of ø.ast and ø.sep. The new asterism/separator style
-  uses less non-Latin-1 characters.
+  Changed the output of “ø.ast” and “ø.sep”. The new asterism/separator
+  style uses less non-Latin-1 characters.
 
 • 0.1.0 (2012-05-25)
 
@@ -110,13 +124,6 @@
 • Provide timestamps to log messages.
 
 • Comment out the code.
-
-• Extend support to:
-
-  • Chrome 4
-  • Firefox 3.6
-  • Mobile Safari “latest”
-  • Opera “latest”
 
                ···············•     ***     •···············               
 

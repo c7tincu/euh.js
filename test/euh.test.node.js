@@ -1,7 +1,7 @@
 ;(function(context, undefined) {
   "use strict";
 
-  var ø = require("../euh.js").ø;
+  var ø = require("../euh.js");
 
   ø
     .log("euh.js ", ø.VERSION)

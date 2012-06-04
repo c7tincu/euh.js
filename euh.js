@@ -6,11 +6,14 @@
   , ø = {
       "logs": []
     , "enabled": true
-    , "VERSION": "0.1.1"
+    , "VERSION": "0.1.2"
     }
   ;
 
   if (typeof exports !== "undefined") {
+    if (typeof module !== "undefined" && module.exports !== void 0) {
+      exports = module.exports = ø;
+    }
     exports.ø = ø;
   }
   else {
