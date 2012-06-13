@@ -6,7 +6,8 @@
   , ø = {
       "logs": []
     , "enabled": true
-    , "VERSION": "0.1.2"
+    , "VERSION": "0.2.0"
+    , "logTimestamps": true
     }
   ;
 
@@ -26,6 +27,7 @@
     pArray = Array.prototype
   , pObject = Object.prototype
   , pFunction = Function.prototype
+  , pDate = Function.prototype
   ;
 
   var
@@ -34,13 +36,13 @@
   ;
 
   ø.consoleExists = false;
-  if (typeof console !== "undefined") {
+  typeof console !== "undefined" && !function() {
     var consoleToString = pObject.toString.call(console);
     ø.consoleExists =
       consoleToString === OBJECT_TO_STRING
       || consoleToString === CONSOLE_TO_STRING
     ;
-  }
+  }();
 
 /*               ···············•   ***   •···············               */
 
@@ -80,12 +82,38 @@
     , "warn"
     , "error"
     ]
+  , method
+  , i
+  , l
   ;
 
-  for (var i = 0, l = methods.length; i < l; i ++) {
-    var method = methods[i];
+  for (i = 0, l = methods.length; i < l; ++i) {
+    method = methods[i];
     ø[method] = methodFactory(method);
   }
+
+/*               ···············•   ***   •···············               */
+
+  pDate.toISOString === void 0 && !function() {
+    var
+      pad = function(number) {
+        return (number < 10 ? "0" : "") + number;
+      }
+    ;
+    pDate.toISOString = function() {
+      return (
+        this.getUTCFullYear()
+        + "-" + pad(this.getUTCMonth() + 1)
+        + "-" + pad(this.getUTCDate())
+        + "T" + pad(this.getUTCHours())
+        + ":" + pad(this.getUTCMinutes())
+        + ":" + pad(this.getUTCSeconds())
+        + "."
+        + String((this.getUTCMilliseconds() / 1000).toFixed(3)).slice(2, 5)
+        + "Z"
+      );
+    };
+  }();
 
 /*               ···············•   ***   •···············               */
 
@@ -95,6 +123,9 @@
         function() {
           if (prefix !== void 0) {
             pArray.unshift.call(arguments, prefix);
+          }
+          if (ø.logTimestamps === true && content === void 0) {
+            pArray.unshift.call(arguments, new Date().toISOString());
           }
           ø[method].apply(
             ø
@@ -192,10 +223,11 @@
             + "···············               "
       }
     ]
+  , alias
   ;
 
-  for (var i = 0, l = aliases.length; i < l; i ++) {
-    var alias = aliases[i];
+  for (i = 0, l = aliases.length; i < l; ++i) {
+    alias = aliases[i];
     ø[alias.alias] = aliasFactory(
       alias.method
     , alias.prefix

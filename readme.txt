@@ -50,14 +50,20 @@
   This property stores the log messages when “ø.consoleExists” is “false”,
   so that you can examine them when and by whatever means you desire.
 
-• ø.fyi, ø.par, ø.pil
-• ø.wtf, ø.wat, ø.wut
-• ø.omg, ø.omd
-• ø.ln, ø.br, ø.nl
-• ø.ast, ø.sep
+• ø.fyi, ø.par, ø.pil —wrap around ø.log
+• ø.wtf, ø.wat, ø.wut —     ”      ø.warn
+• ø.omg, ø.omd        —     ”      ø.error
+• ø.ln,  ø.br,  ø.nl  —     ”      ø.log —new lines/breaks
+• ø.ast, ø.sep        —     ”      ø.log —asterisms/separators
 
-  These are various alias methods. They’re included to suit my own taste,
-  which means you don’t need to care about them, unless you feel like it.
+  These are various alias methods that wrap around the core methods of “ø”,
+  as specified. They can output timestamps in ISO 8601 format—An attribute
+  that you might find handy for basic performance tests.
+
+• ø.logTimestamps
+
+  You can use this boolean property to toggle timestamp output on/off, for
+  the alias methods. By default, “ø.logTimestamps” is “true”.
 
 • ø.noConflict
 
@@ -74,7 +80,7 @@
 
 • Chrome 4
 
-• Firefox “latest” (12) 
+• Firefox “latest” (13) 
   • w/ the native console
   • w/ Firebug “latest” (1.9.2)
 
@@ -102,6 +108,11 @@
 
 §4. Change Log
 
+• 0.2.0 (2012-06-14)
+
+  Added timestamps to “ø.fyi”, “ø.par”, “ø.pil”, “ø.wtf”, “ø.wat”, “ø.wut”,
+  “ø.omg” and “ø.omd”, toggleable via “ø.logTimestamps”.
+
 • 0.1.2 (2012-06-04)
 
   Updated the Node.js module exports/require sections.
@@ -121,7 +132,7 @@
 
 • Make euh.js Ender-compatible.
 
-• Provide timestamps to log messages.
+• Make euh.js semicolon-less.
 
 • Comment out the code.
 
