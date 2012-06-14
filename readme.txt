@@ -100,7 +100,7 @@
 
 • Safari on iOS “latest” (5.1.1)
 
-• Opera “latest” (11.64)
+• Opera “latest” (12)
 
 • Node.js “latest” (0.6.19)
 
