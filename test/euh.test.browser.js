@@ -1,12 +1,11 @@
-;(function(context, undefined) {
-  "use strict";
+void function (context) {
+  "use strict"
 
   ø
     .log("euh.js ", ø.VERSION)
     .ln()
     .ast()
     .ln()
-  ;
 
   ø
     .log("Captain’s log, stardate 2258.42.")
@@ -15,7 +14,6 @@
     .ln()
     .sep()
     .ln()
-  ;
 
   ø
     .fyi("ø.enabled: ", ø.enabled)
@@ -29,16 +27,14 @@
     .omg("ø.omd: ", ø.omd)
     .omd("ø.omg: ", ø.omg)
     .nl()
-  ;
 
-  var noConflict = ø.noConflict();
+  var noConflict = ø.noConflict()
   noConflict
     .par("ø: " + ø)
     .ln()
-  ;
 
   if (noConflict.consoleExists === false) {
-    alert(noConflict.logs);
+    alert(noConflict.logs)
   }
 
-}).call(this, this);
+}(this)

@@ -1,14 +1,15 @@
-;(function(context, undefined) {
-  "use strict";
+#! /usr/bin/env node
 
-  var ø = require("../euh.js");
+void function (context) {
+  "use strict"
+
+  var ø = require("../euh.js")
 
   ø
     .log("euh.js ", ø.VERSION)
     .ln()
     .ast()
     .ln()
-  ;
 
   ø
     .log("Captain’s log, stardate 2258.42.")
@@ -17,7 +18,6 @@
     .ln()
     .sep()
     .ln()
-  ;
 
   ø
     .fyi("ø.enabled: ", ø.enabled)
@@ -31,6 +31,5 @@
     .omg("ø.omd: ", ø.omd)
     .omd("ø.omg: ", ø.omg)
     .nl()
-  ;
 
-}).call(this, this);
+}(this)

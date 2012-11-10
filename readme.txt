@@ -11,7 +11,7 @@
     /* … */
   }
 
-               ···············•     ***     •···············               
+                                    ***
 
 §2. Quick Reference
 
@@ -70,19 +70,19 @@
   If the environment is a browser, this method would—if called—throw euh.js
   into “no conflict” mode[3] and restore “ø” to its previous owner, if any.
 
-               ···············•     ***     •···············               
+                                    ***
 
 §3. Support[4]
 
   I’ve tested euh.js on the following environments:
 
-• Chrome “latest” (19)
+• Chrome “latest” (23)
 
 • Chrome 4
 
-• Firefox “latest” (13) 
+• Firefox “latest” (16.0.2)
   • w/ the native console
-  • w/ Firebug “latest” (1.9.2)
+  • w/ Firebug “latest” (1.10.6)
 
 • Firefox 3.6
   • w/o console (default)
@@ -98,15 +98,28 @@
 
 • Safari “latest” (5.1.7)
 
-• Safari on iOS “latest” (5.1.1)
+• Mobile Safari on iOS 5 w/ Debug Console
 
-• Opera “latest” (12)
+• Opera “latest” (12.10)
 
-• Node.js “latest” (0.6.19)
+• Node.js “latest” (0.8.14)
 
-               ···············•     ***     •···············               
+                                    ***
 
 §4. Change Log
+
+• 0.3.1 (2012-11-10)
+
+  Made euh.js semicolon-less.
+
+  Fixed a bug where the “toISOString” “shim” was being applied to a local
+  proxy variable instead of “Date.prototype”.
+
+• 0.3.0 (2012-06-21)
+
+  Made euh.js Ender-compatible.
+
+  Changed the output of “ø.ast” and “ø.sep”.
 
 • 0.2.0 (2012-06-14)
 
@@ -126,23 +139,31 @@
 
   Initial development release of euh.js.
 
-               ···············•     ***     •···············               
+                                    ***
 
 §5. Future Plans[5]
 
-• Make euh.js Ender-compatible.
+• Replace the “ø.consoleExists” property with a “ø.doesConsoleExist” meth-
+  od, as some platforms may “inject” the “console” object in the environ-
+  ment later than euh.js checks for its presence.
 
-• Make euh.js semicolon-less.
+• Test on IE 10, IE 7 and IE 6. Support these platforms, too, if euh.js
+  doesn’t already work on them.
+
+• On iOS 6, the Mobile Safari Debug Console is gone and debugging is sup-
+  ported only via the Remote Web Inspector.
+  I might, at some point, get my hands on a Mac with OS X and Safari 6, in
+  order to have that system tested, as well.
 
 • Comment out the code.
 
-               ···············•     ***     •···············               
+                                    ***
 
 §6. Credits
 
 • Cristian Tincu (@CristianTincu)
 
-               ···············•     ***     •···············               
+                                    ***
 
 §7. License
 
@@ -151,7 +172,7 @@
   or “open”, commercial or non-commercial, “good” or “evil”, subject to
   the terms of the MIT License[6].
 
-               ···············•     ***     •···············               
+                                    ***
 
 §8. Notes
 

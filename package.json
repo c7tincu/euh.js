@@ -1,12 +1,13 @@
 {
   "name": "euh.js"
-, "version": "0.2.0"
+, "version": "0.3.1"
 , "description": "A JavaScript console wrapper."
 , "keywords": [
     "console"
   , "debug"
   , "debugger"
   , "debugging"
+  , "ender"
   , "log"
   , "logger"
   , "logging"
@@ -18,12 +19,16 @@
   , "email": "cristian@rupe.re"
   }
 , "main": "./euh.js"
+, "ender": "./ender.js"
 , "repository": {
     "type": "git"
   , "url": "git@github.com:CristianTincu/euh.js.git"
   }
-, "licenses": [{
-    "type": "MIT"
-  , "url": "https://raw.github.com/CristianTincu/euh.js/master/license.txt"
-  }]
+, "licenses": [
+    {
+      "type": "MIT"
+    , "url"
+        : "https://raw.github.com/CristianTincu/euh.js/master/license.txt"
+    }
+  ]
 }
