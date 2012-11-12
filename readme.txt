@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/CristianTincu/euh.js.png)](http://travis-ci.org/CristianTincu/euh.js)
 §1. Synopsis
 
   euh.js[1] is a JavaScript console wrapper that provides a simple, unified
