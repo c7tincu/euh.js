@@ -143,6 +143,8 @@
 
 §5. Future Plans[5]
 
+• Replace the “toISOString” “shim” with a “private” function.
+
 • Replace the “ø.consoleExists” property with a “ø.doesConsoleExist” meth-
   od, as some platforms may “inject” the “console” object in the environ-
   ment later than euh.js checks for its presence.
