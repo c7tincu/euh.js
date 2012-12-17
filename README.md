@@ -284,4 +284,4 @@ time I’m writing this text.
 ### 5
 
 See:
-+ https://raw.github.com/CristianTincu/euh.js/master/LICENSE.md
++ https://github.com/CristianTincu/euh.js/blob/master/LICENSE.md
