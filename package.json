@@ -1,34 +1,38 @@
 {
-  "name": "euh.js"
-, "version": "0.3.1"
-, "description": "A JavaScript console wrapper."
-, "keywords": [
-    "console"
-  , "debug"
-  , "debugger"
-  , "debugging"
-  , "ender"
-  , "log"
-  , "logger"
-  , "logging"
-  , "logs"
-  ]
-, "homepage": "https://github.com/CristianTincu/euh.js"
-, "author": {
-    "name": "Cristian Tincu"
-  , "email": "cristian@rupe.re"
-  }
-, "main": "./euh.js"
-, "ender": "./ender.js"
-, "repository": {
-    "type": "git"
-  , "url": "git@github.com:CristianTincu/euh.js.git"
-  }
-, "licenses": [
+  "name" : "euh.js",
+  "version" : "0.4.0",
+  "description" : "A JavaScript console wrapper.",
+  "keywords" :
+    [
+      "console",
+      "debug",
+      "debugger",
+      "debugging",
+      "ender",
+      "log",
+      "logger",
+      "logging",
+      "logs"
+    ],
+  "homepage" : "https://github.com/CristianTincu/euh.js",
+  "author" :
     {
-      "type": "MIT"
-    , "url"
-        : "https://raw.github.com/CristianTincu/euh.js/master/license.txt"
-    }
-  ]
+      "name": "Cristian Tincu",
+      "email": "cristian@rupe.re"
+    },
+  "main" : "./dist/euh.js",
+  "ender" : "./dist/ender.js",
+  "repository" :
+    {
+      "type" : "git",
+      "url" : "git@github.com:CristianTincu/euh.js.git"
+    },
+  "licenses" :
+    [
+      {
+        "type" : "MIT",
+        "url" :
+          "https://raw.github.com/CristianTincu/euh.js/master/license.txt"
+      }
+    ]
 }

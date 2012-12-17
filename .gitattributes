@@ -1,4 +1,7 @@
+*.2s text=auto
+*.html text=auto
 *.js text=auto
 *.json text=auto
+*.md text=auto
+*.sh text=auto
 *.txt text=auto
-*.html text=auto

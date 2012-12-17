@@ -1,1 +1,9 @@
 .project
+2stojs.js
+src/alter-euh.2s
+src/alter-euh.js
+src/ender.2s
+src/euh.2s
+test/euh-browser.2s
+test/euh-ender.2s
+test/euh-node.2s
