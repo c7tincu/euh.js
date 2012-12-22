@@ -41,14 +41,15 @@ if (typeof console !== "undefined" && console.log) {
 ### In browsers:
 
 Download
-[`dist/euh.js`](https://github.com/CristianTincu/euh.js/tree/0.4.0/dist/euh.js).<br/>
+[`dist/euh.js`](https://github.com/CristianTincu/euh.js/tree/1.0.0/dist/euh.js).
+<br/>
 Then:
 
 ```html
 <script src="path/to/euh.js"></script>
 ```
 See
-[`test/euh-browser.html`](https://github.com/CristianTincu/euh.js/blob/0.4.0/test/euh-browser.html)
+[`test/euh-browser.html`](https://github.com/CristianTincu/euh.js/blob/1.0.0/test/euh-browser.html)
 for details.
 
 ### In Node.js:
@@ -65,7 +66,7 @@ var ø = require("path/to/euh.js");
 ```
 
 See
-[`test/euh-node.js`](https://github.com/CristianTincu/euh.js/blob/0.4.0/test/euh-node.js)
+[`test/euh-node.js`](https://github.com/CristianTincu/euh.js/blob/1.0.0/test/euh-node.js)
 for details.
 
 ### In browsers, with Ender:
@@ -83,7 +84,7 @@ Then:
 ```
 
 See
-[`test/euh-ender.html`](https://github.com/CristianTincu/euh.js/blob/0.4.0/test/euh-ender.html)
+[`test/euh-ender.html`](https://github.com/CristianTincu/euh.js/blob/1.0.0/test/euh-ender.html)
 for details.
 
 
