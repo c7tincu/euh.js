@@ -41,7 +41,7 @@ if (typeof console !== "undefined" && console.log) {
 ### In browsers:
 
 Download
-[`dist/euh.js`](https://github.com/CristianTincu/euh.js/tree/0.4.0).<br/>
+[`dist/euh.js`](https://github.com/CristianTincu/euh.js/tree/0.4.0/dist/euh.js).<br/>
 Then:
 
 ```html
@@ -73,7 +73,7 @@ for details.
 Fire up a terminal window, and type the following command:
 
 ```bash
-ender build euh.js && rm -rf node_modules && rm ender.min.js
+ender build euh.js
 ```
 
 Then:
@@ -183,7 +183,7 @@ I’ve tested euh.js on the following environments:
 
 + **IE 6**
 
-+ **Safari “latest” (6)** on OS X
++ **Safari “latest” (6.0.2)** on OS X
 
 + **Safari “latest” (5.1.7)** on Windows
 
@@ -191,7 +191,7 @@ I’ve tested euh.js on the following environments:
 
 + **Mobile Safari on iOS 5** w/ Debug Console
 
-+ **Opera “latest” (12.11)**
++ **Opera “latest” (12.12)**
 
 + **Node.js “latest” (0.8.16)**
 
@@ -199,6 +199,13 @@ I’ve tested euh.js on the following environments:
 
 §5. Change Log
 -------------------------------------------------------------------------------
+
++ **1.0.0 (2012-12-22)**
+
+Changed the output of `ø.ast` and `ø.sep`.
+
+The API is now “freezed”. I don’t have any plans for adding new features or
+changing existing ones. Should any issues appear, I’ll try to fix them.
 
 + **0.4.0 (2012-12-18)**
 
@@ -261,20 +268,17 @@ the MIT License<sup>[5](#5)</sup>.
 
 Yep, “euh” (IPA: `/ø/`) is an interjection.
 
-See:
-+ http://www.larousse.com/en/dictionaries/french-english/euh
+See http://www.larousse.com/en/dictionaries/french-english/euh
 
 ### 2
 
-See:
-+ http://semver.org/
+See http://semver.org/
 
 ### 3
 
 I’ve borrowed this trick—as well as others—from Underscore.js.
 
-See:
-+ http://underscorejs.org/#noConflict
+See http://underscorejs.org/#noConflict
 
 ### 4
 
@@ -283,5 +287,4 @@ time I’m writing this text.
 
 ### 5
 
-See:
-+ https://github.com/CristianTincu/euh.js/blob/master/LICENSE.md
+See https://github.com/CristianTincu/euh.js/blob/master/LICENSE.md
