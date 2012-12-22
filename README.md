@@ -41,8 +41,7 @@ if (typeof console !== "undefined" && console.log) {
 ### In browsers:
 
 Download
-[`dist/euh.js`](https://github.com/CristianTincu/euh.js/tree/1.0.0/dist/euh.js).
-<br/>
+[`dist/euh.js`](https://github.com/CristianTincu/euh.js/tree/1.0.0/dist/euh.js).<br/>
 Then:
 
 ```html
@@ -206,7 +205,8 @@ I’ve tested euh.js on the following environments:
 Changed the output of `ø.ast` and `ø.sep`.
 
 The API is now “freezed”. I don’t have any plans for adding new features or
-changing existing ones. Should any issues appear, I’ll try to fix them.
+changing existing ones.<br/>
+Should any issues appear, I’ll try to fix them.
 
 + **0.4.0 (2012-12-18)**
 
