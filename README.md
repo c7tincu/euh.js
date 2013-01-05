@@ -284,7 +284,7 @@ seem to be thinking:
 
 There are obviously fewer keystrokes required than for typing, say, `console`.
 
-Anywhay, if for some particular reason you don’t agree with my naming choice,
+Anyway, if for some particular reason you don’t agree with my naming choice,
 you can do something like `var whatever = ø.noConflict();`, and use `whatever`
 from there on.
 
