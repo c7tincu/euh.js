@@ -91,9 +91,9 @@ for details.
 §3. Quick API Reference
 -------------------------------------------------------------------------------
 
-euh.js exposes the `ø` object—the console wrapper—to the environment on “load”,
-if the environment is a browser, or on “require”, if the environment supports
-CommonJS modules (e.g. Node.js).
+euh.js exposes the `ø`<sup>[2](#2)</sup> object—the console wrapper—to the
+environment on “load”, if the environment is a browser, or on “require”, if the
+environment supports CommonJS modules (e.g. Node.js).
 
 + `ø.log()`
 + `ø.warn()`
@@ -115,7 +115,7 @@ default, `ø.enabled` is `true`.
 + `ø.VERSION`
 
 This property can be queried to find out the current euh.js release.<br/>
-euh.js is semantically versioned<sup>[2](#2)</sup>. See
+euh.js is semantically versioned<sup>[3](#3)</sup>. See
 [§5. Change Log](#§5-change-log) for a brief release history.
 
 + `ø.doesConsoleExist()`
@@ -147,12 +147,12 @@ alias methods. By default, `ø.logTimestamps` is `true`.
 + `ø.noConflict()`
 
 If the environment is a browser, this method would—if called—throw euh.js into
-“no conflict” mode<sup>[3](#3)</sup>, and restore `ø` to its previous owner, if
+“no conflict” mode<sup>[4](#4)</sup>, and restore `ø` to its previous owner, if
 any.
 
 
 
-§4. Support<sup>[4](#4)</sup>
+§4. Support<sup>[5](#5)</sup>
 -------------------------------------------------------------------------------
 
 I’ve tested euh.js on the following environments:
@@ -258,7 +258,7 @@ Initial development release of euh.js.
 I made euh.js as an exercise, and as an experiment. You’re free to use it in
 your own exercises, experiments, or projects, whether they’re “closed” or
 “open”, commercial or non-commercial, “good” or “evil”, subject to the terms of
-the MIT License<sup>[5](#5)</sup>.
+the MIT License<sup>[6](#6)</sup>.
 
 
 
@@ -273,19 +273,36 @@ See http://www.larousse.com/en/dictionaries/french-english/euh
 
 ### 2
 
-See http://semver.org/
+Typing `ø` on common US English keyboards is usually easier than some people
+seem to be thinking:
+
++ `⌥`+`o` on Mac
+
++ `Alt`+`l` on Linux
+
++ `Alt`+`0248` on Windows
+
+There are obviously fewer keystrokes required than for typing, say, `console`.
+
+Anywhay, if for some particular reason you don’t agree with my naming choice,
+you can do something like `var whatever = ø.noConflict();`, and use `whatever`
+from there on.
 
 ### 3
+
+See http://semver.org/
+
+### 4
 
 I’ve borrowed this trick—as well as others—from Underscore.js.
 
 See http://underscorejs.org/#noConflict
 
-### 4
+### 5
 
 “Latest” means the current stable version of the respective environment, at the
 time I’m writing this text.
 
-### 5
+### 6
 
 See https://github.com/CristianTincu/euh.js/blob/master/LICENSE.md
