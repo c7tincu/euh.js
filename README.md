@@ -42,6 +42,12 @@ if (typeof console !== "undefined" && console.log) {
 
 Download
 [`dist/euh.js`](https://github.com/CristianTincu/euh.js/tree/1.0.0/dist/euh.js).<br/>
+**Or, with Bower:**
+Fire up a terminal window, and type the following command:
+
+```bash
+bower install euh.js
+```
 Then:
 
 ```html
