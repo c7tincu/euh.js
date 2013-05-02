@@ -312,3 +312,7 @@ time I’m writing this text.
 ### 6
 
 See https://github.com/CristianTincu/euh.js/blob/master/LICENSE.md
+
+
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/818ccadd36769cc49a77c8fa2b4bebc8 "githalytics.com")](http://githalytics.com/CristianTincu/euh.js)
