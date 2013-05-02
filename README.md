@@ -1,14 +1,14 @@
 [euh.js](https://github.com/CristianTincu/euh.js)
 ===============================================================================
 
-+ [§1. Synopsis](#§1-synopsis)
-+ [§2. Installation Instructions](#§2-installation-instructions)
-+ [§3. Quick API Reference](#§3-quick-api-reference)
-+ [§4. Support](#§4-support4)
-+ [§5. Change Log](#§5-change-log)
-+ [§6. Credits](#§6-credits)
-+ [§7. License](#§7-license)
-+ [§8. Notes](#§8-notes)
++ [§1. Synopsis](#1-synopsis)
++ [§2. Installation Instructions](#2-installation-instructions)
++ [§3. Quick API Reference](#3-quick-api-reference)
++ [§4. Support](#4-support5)
++ [§5. Change Log](#5-change-log)
++ [§6. Credits](#6-credits)
++ [§7. License](#7-license)
++ [§8. Notes](#8-notes)
 
 
 
@@ -122,7 +122,7 @@ default, `ø.enabled` is `true`.
 
 This property can be queried to find out the current euh.js release.<br/>
 euh.js is semantically versioned<sup>[3](#3)</sup>. See
-[§5. Change Log](#§5-change-log) for a brief release history.
+[§5. Change Log](#5-change-log) for a brief release history.
 
 + `ø.doesConsoleExist()`
 
