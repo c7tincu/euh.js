@@ -275,7 +275,8 @@ the MIT License<sup>[6](#6)</sup>.
 
 Yep, “euh” (IPA: `/ø/`) is an interjection.
 
-See http://www.larousse.com/en/dictionaries/french-english/euh
+See
+[“euh” in Larousse](http://www.larousse.com/en/dictionaries/french/euh).
 
 ### 2
 
@@ -296,13 +297,13 @@ from there on.
 
 ### 3
 
-See http://semver.org/
+See [Semantic Versioning](http://semver.org/).
 
 ### 4
 
 I’ve borrowed this trick—as well as others—from Underscore.js.
 
-See http://underscorejs.org/#noConflict
+See [Underscore.js’s `noConflict()`](http://underscorejs.org/#noConflict).
 
 ### 5
 
@@ -311,7 +312,8 @@ time I’m writing this text.
 
 ### 6
 
-See https://github.com/CristianTincu/euh.js/blob/master/LICENSE.md
+See
+[LICENSE.md](https://github.com/CristianTincu/euh.js/blob/master/LICENSE.md).
 
 
 
