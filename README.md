@@ -163,13 +163,13 @@ any.
 
 I’ve tested euh.js on the following environments:
 
-+ **Chrome “latest” (23.0.1271.97)**
++ **Chrome “latest” (26.0.1410.63)**
 
 + **Chrome 4**
 
-+ **Firefox “latest” (17.0.1)**<br/>
++ **Firefox “latest” (20.0.1)**<br/>
   — w/ the native console<br/>
-  — w/ Firebug “latest” (1.11.1)
+  — w/ Firebug “latest” (1.11.2)
 
 + **Firefox 3.6**<br/>
   — w/o console (default)<br/>
@@ -189,7 +189,7 @@ I’ve tested euh.js on the following environments:
 
 + **IE 6**
 
-+ **Safari “latest” (6.0.2)** on OS X
++ **Safari “latest” (6.0.4)** on OS X
 
 + **Safari “latest” (5.1.7)** on Windows
 
@@ -197,9 +197,9 @@ I’ve tested euh.js on the following environments:
 
 + **Mobile Safari on iOS 5** w/ Debug Console
 
-+ **Opera “latest” (12.12)**
++ **Opera “latest” (12.15)**
 
-+ **Node.js “latest” (0.8.16)**
++ **Node.js “latest” (0.10.5)**
 
 
 
